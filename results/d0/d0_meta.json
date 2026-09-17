@@ -1,0 +1,13 @@
+{
+  "env": {
+    "python": "3.12.8",
+    "platform": "Linux-5.15.0-187-generic-x86_64-with-glibc2.35",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "seed": 42
+  },
+  "cov_auc": 0.773
+}

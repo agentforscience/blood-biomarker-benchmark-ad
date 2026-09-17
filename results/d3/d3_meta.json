@@ -1,0 +1,199 @@
+{
+  "env": {
+    "python": "3.12.8",
+    "platform": "Linux-5.15.0-187-generic-x86_64-with-glibc2.35",
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "seed": 42
+  },
+  "n_extractions": 409,
+  "regression": {
+    "maxdist400": {
+      "all": {
+        "n": 24,
+        "slope_per_decade": 0.00910092234442898,
+        "intercept": 0.8609909933727463,
+        "r": 0.07947393697352867,
+        "p": 0.7120222806066513,
+        "stderr": 0.024337359976982647,
+        "spearman_rho": 0.17117781793628076,
+        "spearman_p": 0.42385079794605934,
+        "auc_median": 0.9,
+        "auc_iqr": [
+          0.85375,
+          0.92
+        ],
+        "median_k": 15.5
+      },
+      "amyloid_endpoint": {
+        "n": 5,
+        "note": "too few extractions for a stable fit"
+      },
+      "amyloid_endpoint_CU": {
+        "n": 2,
+        "note": "too few extractions for a stable fit"
+      },
+      "broad_platform": {
+        "n": 9,
+        "note": "too few extractions for a stable fit"
+      },
+      "targeted_platform": {
+        "n": 1,
+        "note": "too few extractions for a stable fit"
+      }
+    },
+    "maxdist800": {
+      "all": {
+        "n": 41,
+        "slope_per_decade": 0.0005324549925451246,
+        "intercept": 0.858446386668017,
+        "r": 0.005134828531004643,
+        "p": 0.9745818424556768,
+        "stderr": 0.016604237201364874,
+        "spearman_rho": -0.010351331288351048,
+        "spearman_p": 0.9487848980301974,
+        "auc_median": 0.89,
+        "auc_iqr": [
+          0.81,
+          0.91
+        ],
+        "median_k": 31.0
+      },
+      "amyloid_endpoint": {
+        "n": 14,
+        "slope_per_decade": -0.0414138569289263,
+        "intercept": 0.8999191213094709,
+        "r": -0.36380214759609886,
+        "p": 0.20101031002366898,
+        "stderr": 0.030609876805103343,
+        "spearman_rho": -0.2983144164416584,
+        "spearman_p": 0.3002227694129724,
+        "auc_median": 0.8795,
+        "auc_iqr": [
+          0.81,
+          0.9
+        ],
+        "median_k": 8.0
+      },
+      "amyloid_endpoint_CU": {
+        "n": 7,
+        "note": "too few extractions for a stable fit"
+      },
+      "broad_platform": {
+        "n": 22,
+        "slope_per_decade": 0.008331286188133738,
+        "intercept": 0.8224551081552064,
+        "r": 0.07301888005193834,
+        "p": 0.7467493808857941,
+        "stderr": 0.025444915561195713,
+        "spearman_rho": 0.0051341394408739045,
+        "spearman_p": 0.9819090259426483,
+        "auc_median": 0.835,
+        "auc_iqr": [
+          0.7575000000000001,
+          0.9
+        ],
+        "median_k": 23.0
+      },
+      "targeted_platform": {
+        "n": 3,
+        "note": "too few extractions for a stable fit"
+      }
+    },
+    "maxdist1500": {
+      "all": {
+        "n": 46,
+        "slope_per_decade": -0.0016276375509025266,
+        "intercept": 0.8470534341060486,
+        "r": -0.01251008903647383,
+        "p": 0.9342366633719548,
+        "stderr": 0.019612681479446958,
+        "spearman_rho": -0.010768037865513645,
+        "spearman_p": 0.9433782602981787,
+        "auc_median": 0.86,
+        "auc_iqr": [
+          0.79,
+          0.9075
+        ],
+        "median_k": 31.0
+      },
+      "amyloid_endpoint": {
+        "n": 17,
+        "slope_per_decade": -0.08285909312298063,
+        "intercept": 0.9170525526252251,
+        "r": -0.4360757506875384,
+        "p": 0.0801421100998584,
+        "stderr": 0.04415009765996297,
+        "spearman_rho": -0.4744979097432409,
+        "spearman_p": 0.05429499250358237,
+        "auc_median": 0.81,
+        "auc_iqr": [
+          0.79,
+          0.9
+        ],
+        "median_k": 9.0
+      },
+      "amyloid_endpoint_CU": {
+        "n": 10,
+        "note": "too few extractions for a stable fit"
+      },
+      "broad_platform": {
+        "n": 26,
+        "slope_per_decade": 0.00733593391978017,
+        "intercept": 0.8020057378839255,
+        "r": 0.04931554082024096,
+        "p": 0.8109202176146739,
+        "stderr": 0.030327543854599605,
+        "spearman_rho": 0.007247744780996001,
+        "spearman_p": 0.971968758332409,
+        "auc_median": 0.81,
+        "auc_iqr": [
+          0.7324999999999999,
+          0.8975
+        ],
+        "median_k": 31.0
+      },
+      "targeted_platform": {
+        "n": 4,
+        "note": "too few extractions for a stable fit"
+      }
+    }
+  },
+  "document_level": {
+    "all": {
+      "n_broad": 19,
+      "n_targeted": 18,
+      "n_auc_per_doc_broad": 3.0,
+      "n_auc_per_doc_targeted": 2.0,
+      "median_broad": 0.88,
+      "median_targeted": 0.87425,
+      "mean_broad": 0.864578947368421,
+      "mean_targeted": 0.8503611111111112,
+      "delta_median": 0.005750000000000033,
+      "mannwhitney_U": 177.0,
+      "p": 0.8671681263141987,
+      "rank_biserial": 0.03508771929824572
+    },
+    "CU_mentioned": {
+      "n_broad": 16,
+      "n_targeted": 13,
+      "n_auc_per_doc_broad": 3.0,
+      "n_auc_per_doc_targeted": 2.0,
+      "median_broad": 0.88,
+      "median_targeted": 0.86,
+      "mean_broad": 0.8654375000000001,
+      "mean_targeted": 0.831076923076923,
+      "delta_median": 0.020000000000000018,
+      "mannwhitney_U": 126.5,
+      "p": 0.33448448083377447,
+      "rank_biserial": 0.21634615384615374
+    }
+  },
+  "n_curated_rows": 26,
+  "n_within_study": 3,
+  "llm_available": false,
+  "note": "no LLM API key in environment; PASS A is rule-based regex"
+}
