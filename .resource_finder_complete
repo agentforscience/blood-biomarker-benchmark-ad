@@ -1,0 +1,21 @@
+Resource finding phase completed successfully.
+Timestamp: 2026-09-04T18:35:18+00:00
+Papers screened (Europe PMC, with abstracts): 548
+Papers downloaded (unique OA PDFs): 44
+Papers deep-read chunk-by-chunk: 4
+Datasets downloaded (individual-level): 1  (GSE275392: 53 subjects x 1305 SomaScan proteins + amyloid_status)
+Datasets downloaded (aggregate/reference): 10 supplementary tables
+Repositories cloned: 0 (no code_references specified; GitHub search found none usable - see code/README.md)
+Analysis scripts written: 6 (tools/)
+
+Deliverables: literature_review.md, resources.md, planning.md,
+papers/README.md, datasets/README.md, datasets/.gitignore, code/README.md
+STATE.md resource_finder notes block updated.
+
+KEY HANDOFF WARNINGS FOR experiment_runner:
+ - GSE275392: APOE is perfectly confounded with amyloid status.
+   PRIMARY ANALYSIS = APOE33-only stratum (n=36, 18+/18-). Full cohort is secondary/confounded.
+ - GSE275392 has NO p-tau217/p-tau181/NEFL (SomaScan cannot measure phospho-epitopes).
+ - MANDATORY baseline: age + sex + APOE-e4 (published CU AUC ~0.75-0.77).
+ - Endpoint discipline: amyloid positivity != cognitive decline.
+ - Feature selection must stay INSIDE training folds (n=36).
